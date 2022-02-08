@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+
+###
+
+GET http://localhost:3000/subscribers
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Sucheta Sarkar",
+    "subscribedToChannel": "Sucheta Tech"
+}
+
+
+###
+DELETE http://localhost:3000/subscribers/61f98280220aed25af97933a
+
+
+###
+PATCH http://localhost:3000/subscribers/61fb92dfe9877cfa2993d858
+Content-Type: application/json
+
+{
+    "name": "New name"
+} 
